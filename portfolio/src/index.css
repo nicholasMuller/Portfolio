@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Borel:&display=swap'); */
+
+@layer base{
+    body{
+        /* @apply font-[Borel]; */
+
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
