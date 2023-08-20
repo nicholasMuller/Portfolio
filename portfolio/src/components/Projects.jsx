@@ -25,7 +25,7 @@ const Projects = () => {
   <div
     key={index}
     className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div"
+              flex justify-center text-center items-center mx-auto content-div hover:scale-110 duration-500"
   >
     <img src={item.image} alt= {item.id}></img>
   </div>

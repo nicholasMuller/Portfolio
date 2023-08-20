@@ -1,6 +1,9 @@
-import computational from './computational-imaging.png'
-import placethebet from './placethebet.png'
-import trimet from './trimet-pipeline.png'
+import computational from './images/CI-Thumbnail.png'
+import placethebet from './images/placethebet.png'
+import trimet from './images/trimet.png'
+import vikalloc from './images/vikalloc.jpg'
+import androidApp from './images/Android.jpg'
+import ftpserver from './images/ftp.jpg'
 
 export const projectsData=[
     {
@@ -8,22 +11,45 @@ export const projectsData=[
         name:"Computational Imaging",
         image:computational,
         github:"",
-        live:"",
+
     },
     {
         id:2,
         name:"React JS Application",
         image:placethebet,
         github:"",
-        live:"",
+
     },
     {
         id:3,
         name:"Data Pipeline",
         image:trimet,
         github:"",
-        live:"",
+
     },
+    {
+        id:4,
+        name:"Vikalloc",
+        image:vikalloc,
+        github:"",
+
+    },
+    {
+        id:5,
+        name:"Android Application",
+        image:androidApp,
+        github:"",
+
+    },
+    {
+        id:6,
+        name:"FTP Server",
+        image:ftpserver,
+        github:"",
+
+    },
+
+
 
 
 ]
