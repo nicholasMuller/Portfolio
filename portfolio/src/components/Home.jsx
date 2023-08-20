@@ -1,8 +1,10 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import {Link} from "react-router-dom";
 
 const Home = () => {
   return (
+
     <div className="w-full h-screen bg-dark-green text-light-green">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
