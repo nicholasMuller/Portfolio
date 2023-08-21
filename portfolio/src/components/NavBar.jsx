@@ -46,12 +46,6 @@ const NavBar = () => {
         </li>
         <li>
           {" "}
-          <Link to="education" smooth={true} duration={500}>
-            Education
-          </Link>
-        </li>
-        <li>
-          {" "}
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -86,12 +80,6 @@ const NavBar = () => {
           {" "}
           <Link onClick={handleClick} className="text-4xl" to="projects" smooth={true} duration={500}>
             Projects
-          </Link>
-        </li>
-        <li>
-          {" "}
-          <Link onClick={handleClick} className="text-4xl" to="education" smooth={true} duration={500}>
-            Education
           </Link>
         </li>
         <li>
