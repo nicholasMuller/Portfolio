@@ -7,4 +7,7 @@
         @apply px-4;
         @apply cursor-pointer;
     }
+    #logo{
+        @apply cursor-pointer;
+    }
 }
